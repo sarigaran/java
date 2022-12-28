@@ -1,0 +1,28 @@
+package obj.java;
+
+public class Circle {
+
+		public int r=10;
+		
+		double area() {	
+			double area=3.14 *r*r;
+			return area;
+		}
+		double perimeter() {	
+			double quo=2*3.14*r;
+			return quo;
+		}
+
+	public static void main(String[] args) {
+			
+	Circle obj=new Circle();
+	
+	obj.area();
+
+	System.out.println(obj.area());
+	System.out.println(obj.perimeter());
+		}
+	}
+
+
+

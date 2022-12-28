@@ -1,0 +1,10 @@
+package j4_part1.java;
+
+public class Even_number {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

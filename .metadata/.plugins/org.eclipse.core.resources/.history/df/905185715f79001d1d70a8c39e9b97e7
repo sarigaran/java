@@ -1,0 +1,23 @@
+package j8_p1;
+
+import java.util.Scanner;
+
+class mark {
+	int sub1=45;
+	int sub2=45;
+	int sub3=45;
+	int sub4=45;
+	int sub5=45;
+	
+}
+
+
+public class student {
+	
+	public static void main(String[] args) {
+		
+		
+		
+			}
+
+}

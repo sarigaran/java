@@ -1,0 +1,17 @@
+package org.java;
+
+import java.io.Serializable;
+
+public class Student implements Serializable{    
+        public Student(int i, String string, float f) {
+		// TODO Auto-generated constructor stub
+	}
+		int id;
+        String dob;
+        float score;
+        /*Right Click ->source->generate getters and setters
+         * ->Finish
+         * Right Click ->source->generate Constructors
+         * using field ->Finish
+         */
+}

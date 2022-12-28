@@ -1,0 +1,23 @@
+package j8_p1;
+
+ class ex{
+	 void name(){
+	  int r=10;
+	 }
+     int meth(){
+    	 double area=3.14*r*r;
+    	 return meth();
+     }
+     int meth2(){
+    	 double perimeter=3.14*r*r;
+    	 return meth();
+     }
+}
+ 
+public class example {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

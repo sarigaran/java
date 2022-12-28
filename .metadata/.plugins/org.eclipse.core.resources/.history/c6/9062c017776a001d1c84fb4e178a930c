@@ -1,0 +1,14 @@
+package j6_part1;
+
+public class Series {
+
+	public static void main(String[] args) {
+		int n3=1,n2=1,count=10;
+		for (int i = 0; i < count; i++) {
+			n3=n3+i;
+			System.out.println(n3);
+			
+		}
+	}
+
+}

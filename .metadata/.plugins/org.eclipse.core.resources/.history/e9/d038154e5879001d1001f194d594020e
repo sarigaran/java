@@ -1,0 +1,21 @@
+package j8_p1;
+
+ class ex{
+	 public int r=1;
+	 
+     double meth(){
+    	 double area=r*r;
+    	 return area;
+     }
+    
+}
+ 
+public class example {
+
+	public static void main(String[] args) {
+		ex obj=new ex();
+		System.out.println(obj.meth());
+		//System.out.println(obj.meth2());
+	}
+
+}

@@ -1,0 +1,14 @@
+package org.java;
+
+import java.io.Serializable;
+
+public class Student implements Serializable{    
+        int id;
+        String dob;
+        float score;
+        /*Right Click ->source->generate getters and setters
+         * ->Finish
+         * Right Click ->source->generate Constructors
+         * using field ->Finish
+         */
+}

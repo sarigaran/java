@@ -1,0 +1,10 @@
+package j6_part1;
+
+public class Fibonacci_Series {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

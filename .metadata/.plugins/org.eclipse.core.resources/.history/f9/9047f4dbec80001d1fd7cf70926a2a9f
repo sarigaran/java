@@ -1,0 +1,13 @@
+package j6_part2;
+
+public class Script {
+
+	public static void main(String[] args) {
+		int num=5;
+		int sum=0;
+		for (int i = 0; i <=num; i++) {
+			System.out.println(i);
+		}
+			
+		}
+}

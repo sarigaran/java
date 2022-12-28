@@ -1,0 +1,18 @@
+package obj.java;
+import java.util.Scanner;
+public class Swap {
+public int swapnumber(int a,int b) {
+	int temp;
+	temp=a;
+	a=b;
+	b=temp;
+	return temp;
+}
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in); 
+		Swap obj=new Swap();
+		obj.swapnumber(10, 9);
+
+	}
+
+}

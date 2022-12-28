@@ -1,0 +1,30 @@
+package org.java;
+
+public class Bank {
+
+		private double balance;
+		private double interest;
+
+		public void deposit(double amount)
+		{
+			balance = balance + amount;
+		}
+
+		public void withdraw(double amount)
+		{
+			balance = balance - amount;
+		}
+
+		public void interest()
+		{
+			balance = balance + balance * interest;
+		}
+
+		public double getBalance()
+		{
+			return balance;
+		}
+
+	}
+
+

@@ -1,0 +1,23 @@
+package j8_p1;
+
+import java.util.Scanner;
+
+class mark {
+	
+}
+
+
+public class student {
+	
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System.in);
+		System.out.println("enter the no subject");
+		int sub=sc.nextInt();
+		System.out.println("enter the marks");
+		int array[]=new  int[sub];
+		int array[]=sc.nextInt();
+		
+		
+			}
+
+}

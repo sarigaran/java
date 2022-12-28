@@ -1,0 +1,30 @@
+package j8_p1;
+
+class mark {
+	int sub1=45;
+	int sub2=45;
+	int sub3=45;
+	int sub4=45;
+	int sub5=45;
+	
+	public int total(){
+		int tot=sub1+sub2+sub3+sub4+sub5;
+		System.out.println("total mark is "+tot);
+		return tot;
+		}
+	public int average(){
+		int average=total.tot/5;
+		System.out.println("average "+average);
+		return average;
+		}
+}
+
+public class student {
+	
+	public static void main(String[] args) {
+		mark obj=new mark();
+		
+		obj.average();
+		
+			}
+}

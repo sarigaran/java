@@ -1,0 +1,26 @@
+package j8_p1.java;
+
+public class calculator {
+	int a=10;
+	int b=8;
+	
+	int add() {
+		
+		int sum=a+b;
+		return sum;
+	}
+	int diff() {
+    int dif=a-b;
+	return dif;
+	}
+	
+
+	public static void main(String[] args) {
+		
+calculator obj=new calculator();
+obj.add();
+obj.diff();
+
+	}
+
+}

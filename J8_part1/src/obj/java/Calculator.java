@@ -1,0 +1,63 @@
+/*package obj.java;
+
+public class Calculator {
+	void add(int a,int b) {
+		int c=a+b;
+		System.out.println("Add : "+c);
+	}
+	void dif(int a,int b) {
+		int c=a-b;
+		System.out.println("Difference : "+c);
+	}
+	void pro(int a,int b) {
+		int c=a*b;
+		System.out.println("Product : "+c);
+	}
+	void quo(int a,int b) {
+		int c=a%b;
+		System.out.println(	"Quotient : "+c);
+	}
+	public static void main(String[] args) {
+		Calculator obj=new Calculator();
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the a value");
+		int a=sc.nextInt();
+		System.out.println("enter the b value");
+		int b=sc.nextInt();
+		obj.add(a, b);
+		obj.dif(a,b);
+		obj.pro(a,b);
+		obj.quo(a,b);
+	}*/
+package obj.java;
+
+public class Calculator {
+
+	int sum(int a,int b) {
+		int sum=a+b;
+		System.out.println("sum = "+sum);
+		return sum;
+	
+	}
+	int diff(int a,int b) {
+		int dif=a/b;
+		System.out.println("diff = "+dif);
+		return dif;
+		
+	}
+	int porduct(int a,int b) {
+		int pro=a*b;  
+		System.out.println("product = "+pro);
+		return pro;
+		
+	}
+	
+	public static void main(String[] args) {
+		Calculator cal=new Calculator();
+		System.out.println("output :");
+		cal.sum(5, 7);
+		cal.diff(23, 5);
+		cal.porduct(4, 5);
+	}
+
+}

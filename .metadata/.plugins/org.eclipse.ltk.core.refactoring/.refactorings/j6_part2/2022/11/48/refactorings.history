@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;j6_part2.Shirt_the_array.java&apos; to &apos;Short_the_array.java&apos;&#x0A;- Original project: &apos;j6_part2&apos;&#x0A;- Original element: &apos;j6_part2.Shirt_the_array.java&apos;&#x0A;- Renamed element: &apos;j6_part2.Short_the_array.java&apos;" description="Rename compilation unit &apos;Shirt_the_array.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;j6_part2{Shirt_the_array.java" name="Short_the_array.java" references="false" stamp="1669275322927" version="1.0"/>
+</session>

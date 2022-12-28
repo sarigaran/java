@@ -1,0 +1,10 @@
+package j8_p1.java;
+
+public class calculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

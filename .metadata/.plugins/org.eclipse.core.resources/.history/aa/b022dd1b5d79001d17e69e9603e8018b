@@ -1,0 +1,19 @@
+package j8_p1;
+
+import java.util.Scanner;
+
+class mark {
+	
+	
+}
+
+
+public class student {
+
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System.in);
+		System.out.println("enter the mark");
+		int a=sc.nextInt();
+	}
+
+}
