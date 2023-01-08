@@ -12,7 +12,7 @@ public class Circle {
 			return quo;
 		}
 		
-		public class ex extends Circle{
+		public class example{
 			public static void main(String[] args) {		
 			Circle obj=new Circle();
 			System.out.println(obj.area());
