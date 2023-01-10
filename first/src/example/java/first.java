@@ -13,9 +13,8 @@ System.out.println("table");
 for (int i = 0; i <=m; i++) {
 	System.out.println(i+" * "+n+" = "+n*i);
 }
-   }
+   }}
    
-}
 
 
 
@@ -35,6 +34,7 @@ for (int i = 0; i <=m; i++) {
 
 
 
+/*
 
 
 int i;
@@ -88,3 +88,5 @@ for(i=2;i<count;++i)//loop starts from 2 because 0 and 1 are already printed
  n2=n3;    
 }    
  
+   
+   */
