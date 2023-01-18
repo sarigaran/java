@@ -30,34 +30,36 @@ public class Calculator {
 		obj.quo(a,b);
 	}*/
 package obj.java;
-
 public class Calculator {
-
-	int sum(int a,int b) {
-		int sum=a+b;
+int num1,num2;
+int sum,dif,pro;
+public void assign(int num1,int num2){
+	this.num1=num1;
+	this.num2=num2;
+}
+	public int sum() {
+		sum=num1+num2;
 		System.out.println("sum = "+sum);
 		return sum;
-	
 	}
-	int diff(int a,int b) {
-		int dif=a/b;
+	public int diff() {
+		 dif=num1/num2;
 		System.out.println("diff = "+dif);
 		return dif;
-		
 	}
-	int porduct(int a,int b) {
-		int pro=a*b;  
+	public int porduct() {
+		 pro=num1*num2;  
 		System.out.println("product = "+pro);
 		return pro;
-		
 	}
 	
 	public static void main(String[] args) {
 		Calculator cal=new Calculator();
 		System.out.println("output :");
-		cal.sum(5, 7);
-		cal.diff(23, 5);
-		cal.porduct(4, 5);
+		cal.assign(10, 1);
+		cal.sum();
+		cal.diff();
+		cal.porduct();
 	}
 
 }
