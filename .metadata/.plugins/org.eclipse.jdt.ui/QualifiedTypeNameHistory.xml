@@ -9,4 +9,7 @@
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="com.mysql.cj.jdbc.ClientPreparedStatement"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="j8_constructor.java.welcome"/>
+    <fullyQualifiedTypeName name="java.util.zip.Checksum"/>
+    <fullyQualifiedTypeName name="j8_constructor.java.constructor"/>
 </qualifiedTypeNameHistroy>
