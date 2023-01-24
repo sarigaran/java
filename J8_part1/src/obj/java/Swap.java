@@ -2,24 +2,28 @@ package obj.java;
 import java.util.Scanner;
 public class Swap {
 	int a;
-	int b;
+	int b;int temp;
+public void gnumber() {
+
+	Scanner sc=new Scanner(System.in);               
+	System.out.print("Enter the first number: ");  
+	a = sc.nextInt();  
+	System.out.print("Enter the second number: ");  
+	b = sc.nextInt();
+}
 public void swapnumber() {
-	int temp;
 	temp=a;
 	a=b;
 	b=temp;
+	System.out.println("After swapping: "+ a +" "+b);
+	
 }
 	public static void main(String[] args) {
 		Swap obj=new Swap();
-		Scanner sc=new Scanner(System.in);               
-		System.out.print("Enter the first number: ");  
-		obj.a = sc.nextInt();  
-		System.out.print("Enter the second number: ");  
-		obj.b = sc.nextInt();
-		
+		obj.gnumber();
 		obj.swapnumber();
 
-System.out.println("After swapping: a= " + obj.a + ", b= " + obj.b);
+
 	}
 
 }

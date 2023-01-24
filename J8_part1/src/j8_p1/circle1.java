@@ -1,11 +1,8 @@
 package j8_p1;
-
 public class circle1 {
-
 	public int radius;
 	public double area;
 	public double perimeter;
-	
 	public void red(int radius) {
 		this.radius=radius;
 	}
@@ -18,7 +15,6 @@ public class circle1 {
 		return perimeter;
 	}
 public void display() {
-
 	System.out.println("area of circle"+area);
 	System.out.println("perimeter of circle"+perimeter);
 }	
@@ -29,8 +25,5 @@ public static void main(String[] args) {
 	obj.area();
 	obj.perimeter();
 	obj.display();
-		
-
 	}}
-
 }

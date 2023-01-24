@@ -1,16 +1,34 @@
 package j8_p1.java;
 
+import j8_p1.circle1;
+
 public class script {
 
-	public static void main(String[] args) {
-		int num=5;
-		int sum;
-		int i=0;
-		for (i = 0; i <=5; i++) {
-			sum=+i;
-			System.out.println("number"+i);
-		}
-
+	public int radius;
+	public double area;
+	public double perimeter;
+	public void red(int radius) {
+		this.radius=radius;
 	}
-
+	public double area() {
+		 area=3.14*radius*radius;
+		return area;
+	}
+	public double perimeter() {
+		perimeter=2*3.14*radius;
+		return perimeter;
+	}
+public void display() {
+	System.out.println("area of circle"+area);
+	System.out.println("perimeter of circle"+perimeter);
+}	
+class exe{ 
+public static void main(String[] args) {
+	circle1 obj=new circle1();
+	obj.red(5);
+	obj.area();
+	obj.perimeter();
+	obj.display();
+	}}
 }
+

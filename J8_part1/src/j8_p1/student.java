@@ -25,12 +25,12 @@ public class student {
 		 return avg;
 	 }
 	 private void display() {
-		System.out.println("total mark is"+total);
-		System.out.println("average mark is "+avg);
+		System.out.println("total mark is :  "+total);
+		System.out.println("average mark is :  "+avg);
 	}
 		 public static void main(String[] args) {
 	 
-			// TODO Auto-generated method stub
+			
 	student obj=new student();
 	obj.gmark("hari", 50, 60, 70, 80, 90);
 	obj.totalmark();
