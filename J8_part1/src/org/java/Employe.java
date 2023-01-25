@@ -1,29 +1,30 @@
 package org.java;
 
-import java.util.Scanner;
-
 public class Employe {
-String empname;
-int empid;
-float Salary;
-public void assign() {
-	this.empid=123;
-	this.empname="hari";
-	this.Salary=2000;
-}
-public void print() {
-	System.out.println("Employee id = "+empid);
-
-	System.out.println("Employee name = "+empname);
-
-	System.out.println("Employee salary = "+Salary);
-}
-	public static void main(String[] args) {
-		Employe ee=new Employe();
-		ee.assign();
-		ee.print();
-		
-
+	public int radius;
+	public double area;
+	public double perimeter;
+	public void red(int radius) {
+		this.radius=radius;
 	}
-
+	public double area() {
+		 area=3.14*radius*radius;
+		return area;
+	}
+	public double perimeter() {
+		perimeter=2*3.14*radius;
+		return perimeter;
+	}
+public void display() {
+	System.out.println("area of circle"+area);
+	System.out.println("perimeter of circle"+perimeter);
+}	
+class exe{ 
+public static void main(String[] args) {
+	Employe obj=new Employe();
+	obj.red(5);
+	obj.area();
+	obj.perimeter();
+	obj.display();
+	}}
 }

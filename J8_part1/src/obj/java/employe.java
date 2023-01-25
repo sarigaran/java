@@ -5,8 +5,6 @@ public class employe {
 	String name;
 	double sal;
 
-
-
 public employe(int id, String name, double sal) {
 	super();
 	this.id = id;
