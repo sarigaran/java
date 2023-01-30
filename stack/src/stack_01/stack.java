@@ -1,9 +1,7 @@
 package stack_01;
-
 public class stack {
 	int arr[]=new int[9];
 	int tos;
-	
 	
 stack(){
 	tos=-1;

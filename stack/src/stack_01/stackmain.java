@@ -12,7 +12,7 @@ public class stackmain {
 		stk.push(2);
 		stk.push(4);
 		stk.push(9);
-		
+		System.out.println("number of datas : "+stk);
 		System.out.println("number of datas : "+stk.tos);
 		
 		stk.pop();
