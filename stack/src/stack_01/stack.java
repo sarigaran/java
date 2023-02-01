@@ -6,10 +6,8 @@ public class stack {
 stack(){
 	tos=-1;
 }
-
-
 void push(int item) {
-	if(tos==9) {
+	if(tos==5) {
 		System.out.println("memory is full");
 	}
 	else {
