@@ -1,7 +1,5 @@
 package apstract_j10.java;
-
 public class main {
-
 	public static void main(String[] args) {
 		bank ba;
 		ba=new bankA(100);
@@ -11,5 +9,4 @@ public class main {
 	    ba=new bankC(300);
         ba.getBalance();
 	}
-
 }

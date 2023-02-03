@@ -7,7 +7,7 @@ public class bankB extends bank {
 	}
 	  void getBalance() {
 		  this.amount=this.amount+amt;
-		   System.out.println("deposited "+amount);
+	System.out.println("deposited "+amount);
 	   }
 
 }
