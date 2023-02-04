@@ -12,7 +12,8 @@ public class with2parameters {
 		calculate obj=(n1,n2)->{
 			return n1*n2;
 		};
-		calculate obj2=(n1,n2)->{
+		calculate obj2=(n1,n2)->{ 
+			
 			return n1+n2;
 		};
 		Scanner sc=new Scanner(System.in);
