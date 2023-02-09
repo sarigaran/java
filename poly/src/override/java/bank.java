@@ -1,5 +1,4 @@
 package override.java;
-
 public class bank {
 	int p=5000,n=1;
 	float i,r;

@@ -1,7 +1,5 @@
 package override.java;
-
 public class main {
-
 	public static void main(String[] args) {
 		bank b=new bank(1.4f);
 		b.intrest();
@@ -13,6 +11,4 @@ public class main {
 		ic.intrest();
 		System.out.println("----------  ***  ----------");
 	}
-	
-
 }
